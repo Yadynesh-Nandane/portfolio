@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/style.css?v=<?php echo time(); ?>" />
+
+    <title>Portfolio - Yadynesh Nandane</title>
+</head>
+<body class="portfolio_body">
+
+        <div class="main">            
+            <header class="portfolio_header">
+                <h3 class="portfolio_heading">Yadynesh</h3>
+                <nav class="portfolio_nav" id="navtab">
+                    <a class="portfolio home" href="#home">Home</a>
+                    <a class="portfolio prtfolio" href="#prtfolio">Portfolio</a>
+                    <a class="portfolio mywork" href="#mywork">My Work</a>
+                    <a class="portfolio contact" href="#contact">Contact</a>
+                </nav>
+            </header>
+            <section id="home" class="section s1">
+                <h1 class="main_heading">
+                    <a href="#prtfolio" class="portfolio_span">Yadynesh Nandane</a>
+                </h1>
+            </section>
+            <section id="prtfolio" class="section s2">
+
+                <div class="yd_bio">
+                    <div class="info">
+                        <p class="portfolio_info">I am <span class="me">Yadynesh Nandane</span><br> ipsum 
+                            dolor sit amet, consectetur adipisicing elit.<br> Earum corporis esse, officiis ex non in 
+                            ipsam debitis<br> maiores tenetur alias voluptates dolor optio doloribus<br> soluta? Fuga repellendus 
+                            repudiandae aspernatur soluta.</p>
+                    </div>
+                    <div class="portfolio_image">
+                        <img src="./img/ig1.png" alt="Yadynesh Nandane" class="prt_image">
+                    </div>
+                </div>
+            </section>
+            <section id="mywork" class="section s3">
+                <div class="workcards">
+                    <div class="grid-cards">
+                        <div class="card1"></div>
+                        <div class="card2"></div>
+                        <div class="card3"></div>
+                        <div class="card4"></div>
+                        <div class="card5"></div>
+                        <div class="card6"></div>
+                        <div class="card7"></div>
+                        <div class="card8"></div>
+                        <div class="card9"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="section s4">
+                <div class="contactform">
+                    <form id="cont">
+                        <input type="email" class="mail" id="e-mail" />
+                        <input type="text" class="message" id="msg" />
+                    </form>
+                </div>
+            </section>
+        </div>
+
+    <!-- -------------------Full page js library-------------------------- -->
+    <script src="./scripts/fullpage.min.js"></script>
+
+    <!-- --------------------TweenMax Animation library-------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    
+    <!-- ---------------------TimelineMax Animation library---------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
